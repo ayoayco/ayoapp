@@ -48,3 +48,4 @@ internal/
 
 typings
 app/*.js
+*.log
