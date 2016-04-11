@@ -47,8 +47,8 @@ internal/
 
 typings
 node_modules
-!node_modules/angular/
-!node_modules/bootstrap/
+!node_modules/angular/angular.js
+!node_modules/bootstrap/dist/css/bootstrap.css
 !app/*.js
 !app/Main/*.js
 *.log
