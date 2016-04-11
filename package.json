@@ -1,0 +1,22 @@
+{
+  "name": "ayo-app",
+  "version": "1.0.0",
+  "description": "ayos personal website",
+  "main": "webserver.js",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "webserver 8082 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "..."
+  },
+  "author": "Ayo Ayco",
+  "license": "ISC"
+}
