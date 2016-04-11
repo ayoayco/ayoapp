@@ -1,3 +1,3 @@
-module ayo.app{
+module ayo{
     angular.module("ayoApp", []);
 }
