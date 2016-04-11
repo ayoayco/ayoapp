@@ -1,4 +1,3 @@
-node_modules/
 built/*
 tests/cases/rwc/*
 tests/cases/test262/*
@@ -47,6 +46,9 @@ internal/
 
 
 typings
+node_modules
+!node_modules/angular/
+!node_modules/bootstrap/
 !app/*.js
 !app/Main/*.js
 *.log
