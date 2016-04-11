@@ -1,13 +1,24 @@
 <html>
-    <body>
-        <h1>Ayo App 1.0.0</h1>
-        <ng-view></ng-view>
+    <head>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"
+    </head>
+    <body ng-app="ayoApp">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">Ayo 1.0.0</div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container" ng-include="'app/MainContainer.html'">
+        </div>
         
         <!--libraries-->
-        <script src="node_modules/angular/angular.js" />
+        <script src="node_modules/angular/angular.js"></script>
         
         <!--app-->
-        <script src="app/app.js" />
+        <script src="app/app.js"></script>
         
         <!--services-->
         
