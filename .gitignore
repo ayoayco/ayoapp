@@ -47,5 +47,6 @@ internal/
 
 
 typings
-app/*.js
+!app/*.js
+!app/Main/*.js
 *.log
